@@ -1,0 +1,57 @@
+{
+  "name": "front-end",
+  "version": "0.0.1",
+  "description": "UI for Passport factory node application",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "NODE_ENV=development npx webpack-dev-server --hot --progress --config ./webpack.config.dev.js",
+    "build": "NODE_ENV=production npx webpack --config ./webpack.config.prod.js"
+  },
+  "keywords": [
+    "React",
+    "ui"
+  ],
+  "author": "Sean Teare <steare573@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.1.0",
+    "node-sass": "^4.9.0",
+    "react-hot-loader": "^4.0.1",
+    "redux-devtools": "^3.4.1",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^2.11.2",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^2.3.1",
+    "babel-polyfill": "^6.26.0",
+    "lodash": "^4.17.10",
+    "lodash.isobject": "^3.0.2",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-redux": "^5.0.7",
+    "react-transition-group": "^2.3.1",
+    "redux": "^3.7.2",
+    "socket.io-client": "^2.1.0",
+    "uuid": "^3.2.1",
+    "webpack": "^3.12.0"
+  }
+}
